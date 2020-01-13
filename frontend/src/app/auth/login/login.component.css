@@ -1,0 +1,30 @@
+
+:host {
+  text-align: center;
+  display: block;
+  margin-top: 30%;
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.actions {
+  text-align: center;
+}
+
+.form-container {
+  margin-left: 12px;
+}
+
+.card {
+  margin: 0 auto!important; /* Added */
+  float: none!important; /* Added */
+  margin-bottom: 10px!important; /* Added */
+  top: -250px;
+}

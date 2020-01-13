@@ -1,0 +1,25 @@
+<div class="col-md-6 offset-md-3 mt-5">
+  <div class="card">
+
+    <h4 class="card-header">Convertir Monedas</h4>
+    <div class="card-body">
+      <form [formGroup]="currencyForm" (ngSubmit)="converter()"  class="form-container">
+        <div class="form-group">
+          <input class="form-control" type="text" id="amount" placeholder="Monto" autocomplete="off" formControlName="amount" required>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" id="sourceCurrency" placeholder="Moneda Origen" autocomplete="off" formControlName="sourceCurrency" required>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" id="destinationCurrency" placeholder="Moneda Destino" autocomplete="off" formControlName="destinationCurrency" required>
+        </div>
+
+        <div class="actions">
+          <button color="primary" class="btn btn-primary" type="submit" >Convertir</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
