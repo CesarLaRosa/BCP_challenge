@@ -1,2 +1,2 @@
 # BCP_challenge
-Repositorio creado para retor BCP Backend
+Repositorio creado para reto BCP Backend
